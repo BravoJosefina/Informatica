@@ -1,0 +1,108 @@
+The big Picture
+Que caracteristicas tiene que tener un dispositivo para considerarse una computadora?
+-Maquina que recibe datos,los procesa y muestra los resultados.
+-Los cuales pueden ser almacenados, transmitidos o impresos.
+
+Cuando presionamos un boton en la computadora(ej= pausa a un video)
+La informacion sobre el click viaja a traves de pulsos electricos, los cuales van hacia la computadora a traves de medios llamados 
+"buses de datos" y estos pulsos electricos son interpretados como 0 y 1, los cuales se conocen como bits.
+
+-Representar informacion como pulsos electricos es lo que le permite a las computadoras procesar la informacion y transformarla.
+
+La informacion que le enviamos a la computadora al hacer el clic al mouse es recibida por el cerebro de la computadora, conocida 
+como la Unidad Central del Proceso(CPU).
+La CPU realiza miles de millones de operaciones por segundo, sin embargo una particularidad de ella, es que para realizar cualquier 
+tarea necesita instrucciones.
+Cuando una peticion como nuestro clic llega a la CPU esta debe buscar en algun sitio las instrucciones necesarias para saber que 
+es lo que debe hacer a continuacion.
+Estas instrucciones estan guardadas en la memoria principal de la computadora.
+Para un simple clic, la CPU debe buscar en la memoria miles de instrucciones que procesar:
+-El boton sobre el que hicimos clic
+-El programa que contiene ese boton
+-Lo que sucede luego de hacer clic en el boton
+-Encontrar la instruccion para pausar el video
+-Luego, enviara la informacion al dispositivo de salida, el monitor, y otra vez en 0 y 1.
+
+Componentes de una computadora:
+*Internos: Todos los elementos fisicos inseparables de la misma(Si faltara alguno podria no funcionar)
+*Externos: Todos los dispositivos que utiliza la computadora, pero que no son imprescindibles para su funcionamiento.
+
+INTERNOS:
+-Placa madre o motherboard= Placa principal de cualquier computadora, al que todos los demas dispositivos se conectan,  tanto de manera
+directa (como los circuitos electricos interconectados), como indirecta(a traves de puertos USB u otro tipo de conectores)
+-Procesador= Unidad Central de Procesamientos o CPU. Es el cerebro de la computadora, su funcion es interpretar y ejecutar las 
+instrucciones a traves de operaciones basicas: aritmeticas y logicas. Es quien dirige las operaciones que realiza la computadora.
+-Memoria RAM y ROM= 
+   *La memoria RAM es el componente que almacena informacion de manera temporal. Tiene la particularidad de que el contenido se elimina 
+   cada vez que se apaga la computadora.
+   *La memoria ROM alamacena informacion de manera permanente. Guarda todo lo relacionado a la configuracion incial para el arranque de
+   la maquina y funcionamiento basico.
+-Placa de video y sonido= Son componentes internos que se conectan a la placa madre.
+   *Placa de video: Encargada de mostrar imagenes en el monitor.
+   *Placa de sonido: Reproducir sonidos a traves de auriculares o parlantes. Tambien permite recibir sonido a traves de microfonos.
+-Dispositivo de almacenamiento secundario= Alamcenan datos de manera permanente. Informacion que la computadora no necesita de manera
+inmediata para su funcionamiento. Puede almacenar archivos de todo tipo de documentos, imagenes, videos, audios.Disco rigido o duro.
+
+EXTERNOS:   
+Dispositivos perifericos= son aquellos que se conectan a la CPU para anadir funciones y operaciones a la computadora, pero no son parte 
+escencial de la misma.
+Pueden ser=
+-De entrada: Introducen datos a la computadora.
+-De salida: Extraen datos de la computadora.
+-Mixtos: Cumplen ambas funciones.
+-De almacenamiento: Permiten almacenamiento permanente. Conectan de manera externa.
+-De comunicacion: Permiten la conexion entre computadoras.
+
+Quien piensa?
+CPU=Unidad central de Procesamiento ---> Componente mas importante, es su cerebro
+-Microprocesador
+-Procesador
+
+Funcion Principal:
+Procesar todas las tareas de nuestra PC a traves de la resolucion de instrucciones logicas y matematicas.
+Procesador: 
+   -Lee instrucciones almacenadas en la memoria RAM.
+   -Dispositivo que necesita comunicarse con muchos otros elementos. Lee datos e instrucciones (almacenados en memoria RAM) y 
+   requiere informacion desde perifericos de entrada y se comunica con perifericos de salida para mostrar resultados.
+
+Buscar, leer y ejecutar las instrucciones para obtener el resultado esperado.
+*En que paso esta
+*Que hay que hacer en ese paso
+*Que resultados obtenemos
+
+A que velocidad se ejecutan estos procesos?
+*Frecuencia
+*Nucleos
+*Subprocesos o hilos
+*Memoria Cache
+Son las caracteristicas de la CPU que determinaran la velocidad en la cual se van a ejecutar todos estos pasos.
+
+CARACTERISTICAS CPU:
+-Zocalo/Socket= Se usa para fijar y conectar el procesador, sin soldarlo, lo cual permite quitar y poner diferentes modelos 
+y familias sin tener que cambiar de placa base.
+Realiza todas las comunicaciones con el exterior. Dependiendo del numero de conexiones se podran tener mas elementos integrados
+y ofrecer un mayor ancho de banda hacia los otros componentes del sistema. 
+Celulares y laptop no utilizan socket.
+
+-Nucleos/Cores= Subprocesador en si mismo. Segun cantidad de nucleos, la cantidad de tareas al mismo tiempo que puede realizar.
+Dual Core --> Dos Nucleos
+Quadcore --> Cuatro nucleos
+Octacore --> Ocho nucleos
+
+-Hilos/Threads= Son el flujo de control de programa. Ayudan de forma directa a la manera en la que un procesador adminsitra
+sus tareas. 
+Funcion: Que los 'tiempos de espera' entre pocesos se aprovechan mejor.
+Hacer creer al usuario que si se puede hacer mas de una tarea por vez. Dividen tareas en porciones, se alternan para que 
+parezca que se ejecutan dos a la vez.
+
+-Memoria Cache= memoria mas rapida del sistema.
+Se utiliza para acelerar el acceso a la memoria de nuestro procesador. Almacena los datos e instrucciones mas utilizados por 
+el sistema para evitar perder tiempo y tener que acceder a ellos en la RAM.
+
+-Frencuencia= Numero de cambios que se hace en un determinado segundo. Procesador gobernado por un reloj: que sincroniza 
+componentes y limita las operaciones que es capaz de realizar en una determinada cantidad de tiempos.
+
+=IPC o Instrucciones por Ciclo= mide el numreo de instrucciones que un procesador es capaz de realizar en cada ciclo de su
+reloj interno. Mide el rendimiento de un procesador en funcionamiento.
+
+Bus= canales por donde se va a transmitir la informacion. Permite la transmision de energia o datos.
